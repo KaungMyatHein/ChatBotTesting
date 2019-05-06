@@ -1,0 +1,10 @@
+package com.BitePu.TGBP.Entity.Customer;
+
+import java.io.Serializable;
+
+
+public class Customer implements Serializable{
+
+	private static final long serialVersionUID = -8577700180093849057L;
+
+}

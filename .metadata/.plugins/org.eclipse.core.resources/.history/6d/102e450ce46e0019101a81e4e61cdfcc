@@ -1,0 +1,7 @@
+package com.BitePu.TGBP.Entity.Customer;
+
+import java.io.Serializable;
+
+public class Customer implements Serializable{
+
+}

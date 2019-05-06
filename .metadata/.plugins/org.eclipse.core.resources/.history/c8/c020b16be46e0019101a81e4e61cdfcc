@@ -1,0 +1,33 @@
+package com.BitePu.TGBP.Entity.Customer;
+
+import java.io.Serializable;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+import lombok.Setter;
+
+import lombok.Getter;
+
+@Entity
+public class Customer implements Serializable{
+
+	private static final long serialVersionUID = -8577700180093849057L;
+	
+	@Id
+	@GeneratedValue
+	@Column (name = "id")
+	@Getter @Setter private long id;
+	
+	@Column (name = "name")
+	@Getter @Setter private String name;
+	
+	@Column (name = "address")
+	@Getter @Setter private String address;
+	
+	@Column (name = "phone")
+	@Getter @Setter private String phone;
+
+}
